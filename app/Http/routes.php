@@ -11,9 +11,16 @@
 |
 */
 
+// Researcher Routes
+Route::get('session', 'SessionController@home');
+Route::get('session/add', 'SessionController@home');
+
+// Subject Routes
+Route::get('subject/task', 'SubjectController@task');
+
 Route::get('/', 'WelcomeController@index');
 
-Route::get('home', 'HomeController@index');
+//Route::get('home', 'HomeController@index');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
