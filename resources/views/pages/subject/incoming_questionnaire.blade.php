@@ -1,5 +1,5 @@
 @extends('app')
 
 @section('content')
-    <h1>Incoming Questionnaire</h1>
+    <h1>Survey Questionnaire</h1>
 @stop
