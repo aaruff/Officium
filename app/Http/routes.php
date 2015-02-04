@@ -16,7 +16,8 @@ Route::get('session', 'SessionController@home');
 Route::get('session/add', 'SessionController@home');
 
 // Subject Routes
-Route::get('subject/task', 'SubjectController@task');
+Route::get('task', 'SubjectController@task');
+Route::get('questionnaire/incoming', 'QuestionnaireController@incoming');
 
 Route::get('/', 'WelcomeController@index');
 
