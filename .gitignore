@@ -1,7 +1,8 @@
 /vendor
 .env
 
-.idea/workspace.xml
-.idea/tasks.xml
+*.iml
+
+.idea/
 
 storage/database.sqlite
