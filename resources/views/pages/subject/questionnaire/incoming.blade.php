@@ -36,6 +36,21 @@
             <input type="text" id="gpa" value = "{{old('gpa')}}">
         </div>
     </div>
+    {{--  QUESTION 4 --}}
+    <div class="control-group">
+        <label class="control-label">Over the course of the next week how many of each of the following do you have:</label>
+        <label class="control-label">Minor Assignments?</label>
+        <div class="controls">
+            <input type="text" id="minor_assignments" value = "{{old('minor_assignments')}}">
+        </div>
+        <label class="control-label">Enter the deadlines for the above minor assignments</label>
+
+        <label class="control-label">Major assignments / term papers?</label>
+        <div class="controls">
+            <input type="text" id="major_assignments" value = "{{old('major_assignments')}}">
+        </div>
+        <label class="control-label">Enter the deadlines for the above major assignments</label>
+    </div>
 
     {!! Form::close() !!}
 @stop
